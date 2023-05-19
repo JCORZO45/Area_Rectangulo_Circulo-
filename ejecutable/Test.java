@@ -16,7 +16,7 @@ public class Test{
             mCirculo.calcularArea();
             mCirculo.calcularPerimetro();
 
-            JOptionPane.showMessageDialog(null, "EL area del circulo es:"+mCirculo.mostrarArea() + "y" + "El perimetro es: " + mCirculo.mostrarPerimetro() );
+            JOptionPane.showMessageDialog(null, "EL area del circulo es:"+mCirculo.mostrarArea() +  "\nEl perimetro es: " + mCirculo.mostrarPerimetro() );
         }
 
         if(x==2)

@@ -2,12 +2,9 @@ package modelo;
 
 public class Circulo extends Figura{
 
-    public Circulo(double perimetro, double area) {
-        super(perimetro, area);
-       
-    }
+  
     public Circulo(double radio){
-        this(radio, radio);
+        this.radio=radio;
     }
 
     private double radio; 
